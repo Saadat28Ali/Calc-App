@@ -1,0 +1,23 @@
+{
+  "name": "calc",
+  "version": "1.0.0",
+  "description": "calculator",
+  "main": "main.js",
+  "scripts": {
+    "run": "nodemon --exec electron .", 
+    "build": "electron-builder"
+  },
+  "keywords": [
+    "calculator"
+  ],
+  "author": "saadat ali",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^28.2.3",
+    "nodemon": "^3.0.3", 
+    "electron-builder": "^24.9.1"
+
+  },
+  "dependencies": {
+  }
+}

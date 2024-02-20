@@ -1,0 +1,120 @@
+@font-face {
+	font-family: "FONT-HEADING";
+	src: url("./Bahnschrift 400.ttf");
+}
+@font-face {
+	font-family: "FONT-BUTTON";
+	src: url("./CascadiaCode.ttf");
+}
+@font-face {
+	font-family: "FONT-DISPLAY";
+	src: url("./cour.ttf");
+}
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+:root {
+/*	--FONT-HEADING: "heading";
+	--FONT-TEXT: "button";
+	--FONT-DISPLAY: "display";*/
+	--COLOR-DARK-BLACK: #0a0a0a;
+	--COLOR-BLACK: #202020;
+}
+
+body {
+/*	background-color: var(--COLOR-DARK-BLACK);*/
+	border-radius: 10px;
+	color: white;
+	overflow: clip;
+}
+
+.header {
+	background-color: var(--COLOR-DARK-BLACK);
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	height: 5vh;
+	font-family: FONT-HEADING;
+	font-size: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	user-select: none;
+	height: 25px;
+	border-radius: 10px 10px 0px 0px;
+}
+
+.close {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	border-radius: 3px;
+	padding: 2px;
+	font-family: FONT-BUTTON;
+}
+.close:hover {
+	background-color: var(--COLOR-BLACK);
+	-webkit-app-region: !important;
+}
+
+.display {
+	border-inline: var(--COLOR-DARK-BLACK) solid 5px;
+	background: linear-gradient(white, #cccccc);
+	color: black;
+	display: flex;
+	justify-content: right;
+	align-items: end;
+	height: 25vh;
+	font-family: FONT-DISPLAY;
+/*	border-radius: 5px;*/
+/*	margin-left: 5px;*/
+/*	margin-right: 5px;*/
+	padding-right: 10px;
+}
+
+.button_area {
+	background-color: var(--COLOR-DARK-BLACK);
+	height: 68.5vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	user-select: none;
+	border-radius: 0px 0px 10px 10px;
+}
+
+.button_column {
+	width: 23.53%;
+	height: 100%;
+	display: flex;
+	flex-grow: 2;
+	flex-direction: column;
+}
+
+.button_row {
+	width: 100%;
+	height: 33%;
+	display: flex;
+	justify-content: center;
+	flex-grow: 1;
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-grow: 1;
+	background-color: var(--COLOR-BLACK);
+	margin-top: 5px;
+	margin-left: 5px;
+	border-radius: 5px;
+	width: 25vw;
+
+	font-family: FONT-BUTTON;
+}
+
+.button:hover {
+	background-color: rgba(255, 0, 0, 1);
+}

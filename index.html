@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html class = "html">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css" />
+	<script src = "page.js"> </script>
+	<title> Calculator </title>
+</head>
+<body>
+	<div class = "header">
+		<div class = "close" onclick = onClose()> X </div>
+		<div style = "flex-grow: 2; -webkit-app-region: drag;"> &nbsp </div>
+		<div style = "color: red; -webkit-app-region: drag;"> Calculator </div>
+	</div>
+	<div class = "display">
+		<label class = "display_label" style = "font-size: 50px"> 0 </label>
+	</div>
+
+	<div class = "button_area"> 
+
+		<div class = "button_column" style = "width: 75%"> 
+
+			<div class = "button_row"> 
+				<div class = "button" onclick = addChar("+")> + </div>
+				<div class = "button" onclick = addChar("*")> * </div>
+				<div class = "button" onclick = addChar("mod")> mod </div>
+			</div>
+
+			<div class = "button_row"> 
+				<div class = "button" onclick = addChar("-")> - </div>
+				<div class = "button" onclick = addChar("/")> / </div>
+				<div class = "button" onclick = addChar("^")> ^ </div>
+			</div>
+
+			<div class = "button_row"> 
+				<div class = "button" onclick = addChar("7")> 7 </div>
+				<div class = "button" onclick = addChar("8")> 8 </div>
+				<div class = "button" onclick = addChar("9")> 9 </div>
+			</div>
+
+			<div class = "button_row"> 
+				<div class = "button" onclick = addChar("4")> 4 </div>
+				<div class = "button" onclick = addChar("5")> 5 </div>
+				<div class = "button" onclick = addChar("6")> 6 </div>
+			</div>
+
+			<div class = "button_row"> 
+				<div class = "button" onclick = addChar("1")> 1 </div>
+				<div class = "button" onclick = addChar("2")> 2 </div>
+				<div class = "button" onclick = addChar("3")> 3 </div>
+			</div>
+
+		</div>
+
+		<div class = "button_column"> 
+
+			<div class = "button_row" style = "height: 66%"> 
+				<div class = "button" onclick = addChar("=")> = </div>
+			</div>
+
+			<div class = "button_row"> 
+				<div class = "button" onclick = addChar("C")> C </div>
+			</div>
+
+			<div class = "button_row"> 
+				<div class = "button" onclick = addChar(".")> . </div>
+			</div>
+
+			<div class = "button_row"> 
+				<div class = "button" onclick = addChar("0")> 0 </div>
+			</div>
+
+		</div>
+
+	</div>
+</body>
+</html>
