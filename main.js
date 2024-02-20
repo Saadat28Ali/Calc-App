@@ -33,13 +33,13 @@ function createWindow(type) {
 			backgroundColor: "rgba(0, 0, 0, 0)", 
 			webPreferences: {
 				nodeIntegration: true, 
-				preload: path.join(__dirname, "preload.js"), 
+				preload: path.join(__dirname, "page/preload.js"), 
 				devTools: false, 
 			}
 		}
 		)
 
-		main_win_obj.loadFile("index.html");
+		main_win_obj.loadFile("page/index.html");
 		main_win_obj.webContents.openDevTools();
 		return main_win_obj;
 	}

@@ -1,14 +1,14 @@
 @font-face {
 	font-family: "FONT-HEADING";
-	src: url("./Bahnschrift 400.ttf");
+	src: url("../fonts/Bahnschrift 400.ttf");
 }
 @font-face {
 	font-family: "FONT-BUTTON";
-	src: url("./CascadiaCode.ttf");
+	src: url("../fonts/CascadiaCode.ttf");
 }
 @font-face {
 	font-family: "FONT-DISPLAY";
-	src: url("./cour.ttf");
+	src: url("../fonts/cour.ttf");
 }
 * {
 	padding: 0px;
