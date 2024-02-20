@@ -1,2 +1,6 @@
 # Calc App
- A simple calculator using Electron js
+ A simple Calculator application, made using Electron JS.
+
+# Building
+ Requires NPM, electron-builder
+ `npm run build`
