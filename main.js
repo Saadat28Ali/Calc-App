@@ -33,8 +33,8 @@ function createWindow(type) {
 			backgroundColor: "rgba(0, 0, 0, 0)", 
 			webPreferences: {
 				nodeIntegration: true, 
-				preload: path.join(__dirname, "page/preload.js"), 
-				devTools: false, 
+				preload: path.join(__dirname, "preload.js"), 
+				devTools: false
 			}
 		}
 		)
