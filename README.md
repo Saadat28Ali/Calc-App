@@ -4,5 +4,5 @@
  A simple Calculator application, made using Electron JS.
 
 # Building
- Requires NPM, electron-builder.
- Use `npm run build`
+ Requires NodeJS, NPM, electron-builder.
+ Use `npm run build`.
